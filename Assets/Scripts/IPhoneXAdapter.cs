@@ -22,6 +22,23 @@ public class IphoneXAdapter:MonoBehaviour
     {
 
 #if UNITY_EDITOR
+        /*
+                iPhone X 横持手机方向:
+                iPhone X 分辨率
+                2436 x 1125 px
+        
+                safe area
+                2172 x 1062 px
+        
+                左右边距分别
+                132px
+        
+                底边距 (有Home条)
+                63px
+        
+                顶边距
+                0px
+                */
         float width = 2436f;
         float height = 1125f;
         float margin = 66;
