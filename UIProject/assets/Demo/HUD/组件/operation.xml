@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125" opaque="false" designImage="ui://ct91jj21avqf95" designImageOffsetX="-13" designImageOffsetY="-36" designImageAlpha="0">
+  <displayList>
+    <component id="n0_bg91" name="player_joystick" src="avqf99" fileName="通用/摇杆/组件/joystick_area.xml" xy="0,583" size="754,540" group="n4_bg91">
+      <relation target="" sidePair="left-left,bottom-bottom,width-width%,height-height%"/>
+    </component>
+    <group id="n4_bg91" name="Player" xy="0,583" size="754,540" advanced="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <component id="n2_bg91" name="player_jump_btn" src="avqf9d" fileName="通用/按钮/common_operate_btn.xml" xy="2050,941" size="155,155" group="n26_mb95">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://ct91jj21avqf9g"/>
+    </component>
+    <component id="n19_sbyq" name="player_run_btn" src="avqf9d" fileName="通用/按钮/common_operate_btn.xml" xy="2050,688" size="155,155" group="n26_mb95" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button titleFontSize="24" icon="ui://ct91jj21avqf9h"/>
+    </component>
+    <group id="n26_mb95" name="operation" xy="2050,688" size="155,408" advanced="true"/>
+  </displayList>
+</component>

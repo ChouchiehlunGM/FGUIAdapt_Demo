@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,85" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_pf99" name="n4" src="jv8chg" fileName="Demo素材/hud/hud_跑跳底框.png" xy="0,0" size="86,86">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_ly2b" name="icon" xy="17,15" size="50,54" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n2_ly2b" name="n2" src="avqf9f" fileName="Demo素材/hud/激活状态.png" xy="5,5" size="75,75">
+      <gearDisplay controller="button" pages="1,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_myfp" name="title" xy="14,14" size="60,60" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="373,373">
+  <displayList>
+    <image id="n2_pf99" name="bg" src="l0wngf" fileName="Demo素材/hud/hud_虚拟摇杆底.png" xy="0,0" size="373,373">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_pf99" name="ball" src="l0wngg" fileName="Demo素材/hud/hud_虚拟摇杆_滑动点.png" xy="125,124">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

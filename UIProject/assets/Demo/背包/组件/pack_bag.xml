@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="805,1043" opaque="false" designImage="ui://ct91jj2110086hu" designImageOffsetX="-1585" designImageOffsetY="-43" designImageAlpha="0" designImageLayer="1">
+  <controller name="state" pages="0,隐藏,1,显示" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="display_btn"/>
+  </controller>
+  <displayList>
+    <image id="n45_ldjj" name="n45" src="l0wngq" fileName="Demo素材/背包/背包_底板.png" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n46_ldjj" name="n46" src="jv8chf" fileName="背包/组件/pack_title_bar.xml" xy="-22,34" group="n52_ldjj"/>
+    <image id="n48_ldjj" name="n48" src="l0wngn" fileName="Demo素材/背包/背包_标题点点.png" xy="-62,4" pivot="0.5,0.5" group="n52_ldjj"/>
+    <text id="n50_ldjj" name="n50" xy="161,52" size="100,64" group="n52_ldjj" fontSize="48" color="#ffffff" text="背包"/>
+    <group id="n52_ldjj" name="n52" xy="-62,4" size="435,124" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n51_ldjj" name="close_btn" src="jm0ihs" fileName="背包/组件/bag_close_btn.xml" xy="685,1" size="120,120">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <list id="n25_m76v" name="list" xy="2,115" size="801,869" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" margin="-32,0,30,0" lineGap="-39" colGap="-52" defaultItem="ui://ct91jj21pywwg0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n54_ldjj" name="dispaly_btn" src="avqf8t" fileName="HUD/组件/general_btn.xml" xy="-283,847" size="331,102">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="炫耀" titleFontSize="60" icon="ui://ct91jj21l0wngs"/>
+    </component>
+  </displayList>
+  <transition name="display_btn" frameRate="30">
+    <item time="0" type="XY" target="n54_ldjj" tween="true" startValue="-99,847" endValue="-290,847" duration="7"/>
+    <item time="7" type="XY" target="n54_ldjj" tween="true" startValue="-290,847" endValue="-280,847" duration="4"/>
+    <item time="11" type="XY" target="n54_ldjj" tween="true" startValue="-280,847" endValue="-286,847" duration="4"/>
+    <item time="15" type="XY" target="n54_ldjj" tween="true" startValue="-286,847" endValue="-283,847" duration="3"/>
+  </transition>
+  <transition name="hide_bag_panel" frameRate="30">
+    <item time="0" type="Alpha" target="n54_ldjj" value="0"/>
+    <item time="0" type="XY" target="n25_m76v" tween="true" startValue="2,115" endValue="958,115" duration="7"/>
+    <item time="0" type="XY" target="n45_ldjj" tween="true" startValue="0,0" endValue="954,0" duration="7"/>
+    <item time="0" type="XY" target="n46_ldjj" tween="true" startValue="-21,41" endValue="940,41" duration="7"/>
+    <item time="0" type="XY" target="n48_ldjj" tween="true" startValue="-61,11" endValue="893,11" duration="7"/>
+    <item time="0" type="XY" target="n50_ldjj" tween="true" startValue="162,59" endValue="1130,59" duration="7"/>
+    <item time="0" type="XY" target="n51_ldjj" tween="true" startValue="684,34" endValue="1646,34" duration="7"/>
+  </transition>
+  <transition name="t2" autoPlay="true" frameRate="30">
+    <item time="4" type="Scale" target="n48_ldjj" tween="true" startValue="0,0" endValue="1.05,1.05" duration="8"/>
+    <item time="12" type="Scale" target="n48_ldjj" tween="true" startValue="1.05,1.05" endValue="0.98,0.98" duration="5"/>
+    <item time="17" type="Scale" target="n48_ldjj" tween="true" startValue="0.98,0.98" endValue="1,1" duration="4"/>
+  </transition>
+  <transition name="sign_out" frameRate="30">
+    <item time="0" type="Alpha" target="n25_m76v" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Alpha" target="n45_ldjj" tween="true" startValue="0.5" endValue="0" duration="4"/>
+    <item time="0" type="Alpha" target="n46_ldjj" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Alpha" target="n48_ldjj" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Alpha" target="n50_ldjj" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Alpha" target="n51_ldjj" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Alpha" target="n54_ldjj" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="0" type="Scale" target="n45_ldjj" tween="true" startValue="1.14,1" endValue="1,1" duration="4"/>
+  </transition>
+</component>

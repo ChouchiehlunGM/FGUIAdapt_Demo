@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125" opaque="false" designImage="ui://ct91jj2110086hu" designImageAlpha="0">
+  <displayList>
+    <graph id="n44_pd0o" name="n44" xy="0,0" size="2436,1125" alpha="0.5" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n43_pyww" name="pack_bag" src="pywwfx" fileName="背包/组件/pack_bag.xml" xy="1598,41" pivot="0.5,0.5" size="805,1043">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+  </displayList>
+  <transition name="programme_2" autoPlay="true" frameRate="30">
+    <item time="0" type="Alpha" target="n43_pyww" tween="true" startValue="0" endValue="1" duration="5"/>
+    <item time="0" type="Scale" target="n43_pyww" tween="true" startValue="0.5,0.5" endValue="1.05,1.05" duration="6" ease="Quad.InOut"/>
+    <item time="6" type="Scale" target="n43_pyww" tween="true" startValue="1.05,1.05" endValue="1,1" duration="3" ease="Quad.InOut"/>
+    <item time="9" type="Scale" target="n43_pyww" tween="true" startValue="1,1" endValue="1.01,1.01" duration="3" ease="Quad.InOut"/>
+    <item time="12" type="Scale" target="n43_pyww" tween="true" startValue="1.01,1.01" endValue="1,1" duration="4" ease="Quad.InOut"/>
+  </transition>
+</component>

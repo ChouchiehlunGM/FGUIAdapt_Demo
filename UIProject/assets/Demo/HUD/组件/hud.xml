@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125" opaque="false" designImage="ui://ct91jj21avqfbd" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n76_ds8k" name="bag_btn" src="avqf8t" fileName="HUD/组件/general_btn.xml" xy="2309,407" size="70,79">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button titleFontSize="20" icon="ui://ct91jj21pd0o6i2"/>
+    </component>
+    <component id="n99_d2du" name="fish_btn" src="ldjjh0" fileName="HUD/组件/fish_operate_btn.xml" xy="1688,753" size="265,265">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n100_l0wn" name="menu_btn" src="avqf8t" fileName="HUD/组件/general_btn.xml" xy="2295,31" size="99,99">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button titleFontSize="20" icon="ui://ct91jj21l0wngh"/>
+    </component>
+    <component id="n101_k56y" name="test_dialogue_btn" src="avqf8t" fileName="HUD/组件/general_btn.xml" xy="2293,573" size="105,114">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button title="对话框" titleFontSize="40"/>
+    </component>
+  </displayList>
+</component>

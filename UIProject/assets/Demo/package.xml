@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ct91jj21">
+  <resources>
+    <component id="avqf8t" name="general_btn.xml" path="/HUD/组件/"/>
+    <component id="avqf98" name="operation.xml" path="/HUD/组件/" exported="true"/>
+    <component id="avqf99" name="joystick_area.xml" path="/HUD/摇杆/组件/" exported="true"/>
+    <component id="avqf9a" name="joystick.xml" path="/HUD/摇杆/组件/"/>
+    <component id="avqf9d" name="common_operate_btn.xml" path="/HUD/组件/"/>
+    <image id="avqf9f" name="激活状态.png" path="/Demo素材/hud/"/>
+    <image id="avqf9g" name="跳.png" path="/Demo素材/hud/"/>
+    <image id="avqf9h" name="跑.png" path="/Demo素材/hud/" scale="9grid" scale9grid="0,0,80,80"/>
+    <component id="avqfb0" name="hud.xml" path="/HUD/组件/" exported="true"/>
+    <component id="pywwff" name="pack_panel.xml" path="/背包/组件/" exported="true"/>
+    <component id="pywwfx" name="pack_bag.xml" path="/背包/组件/" exported="true"/>
+    <component id="pywwg0" name="pack_bag_cell.xml" path="/背包/组件/"/>
+    <image id="d2duga" name="fish.png" path="/HUD/"/>
+    <image id="l0wngf" name="hud_虚拟摇杆底.png" path="/Demo素材/hud/"/>
+    <image id="l0wngg" name="hud_虚拟摇杆_滑动点.png" path="/Demo素材/hud/"/>
+    <image id="l0wngh" name="hud_暂停icon.png" path="/Demo素材/hud/"/>
+    <image id="l0wngi" name="hud_手持底框.png" path="/Demo素材/hud/"/>
+    <image id="l0wngk" name="背包_格子选中.png" path="/Demo素材/背包/"/>
+    <image id="l0wngl" name="背包_格子装饰图案.png" path="/Demo素材/背包/"/>
+    <image id="l0wngm" name="背包_格子常态.png" path="/Demo素材/背包/"/>
+    <image id="l0wngn" name="背包_标题点点.png" path="/Demo素材/背包/"/>
+    <image id="l0wngo" name="背包_标题底圆.png" path="/Demo素材/背包/"/>
+    <image id="l0wngp" name="背包_标题底.png" path="/Demo素材/背包/"/>
+    <image id="l0wngq" name="背包_底板.png" path="/Demo素材/背包/" scale="9grid" scale9grid="202,261,404,522"/>
+    <image id="l0wngr" name="通用_背包icon@3x.png" path="/Demo素材/通用/"/>
+    <image id="l0wngs" name="通用_橙色按钮.png" path="/Demo素材/通用/" scale="9grid" scale9grid="83,0,166,102"/>
+    <image id="l0wngu" name="通用_按钮点点.png" path="/Demo素材/通用/"/>
+    <image id="l0wngv" name="通用_关闭按钮.png" path="/Demo素材/通用/"/>
+    <component id="ldjjh0" name="fish_operate_btn.xml" path="/HUD/组件/"/>
+    <image id="ldjjh1" name="icon_鱼竿.png" path="/Demo素材/icon/"/>
+    <image id="ldjjh2" name="背包.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh3" name="主场景操作3.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh4" name="主场景操作2.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh5" name="主场景操作1.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh6" name="炫耀.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh7" name="点击.png" path="/Demo素材/设计图/"/>
+    <image id="ldjjh8" name="背包_手持状态.png" path="/Demo素材/背包/"/>
+    <image id="ldjjh9" name="背包_名字气泡.png" path="/Demo素材/背包/" scale="9grid" scale9grid="75,0,13,57"/>
+    <image id="ldjjhb" name="背包_名字气泡(1).png" path="/Demo素材/背包/" scale="9grid" scale9grid="42,0,84,56"/>
+    <image id="ldjjhc" name="背包_名字气泡_三角.png" path="/Demo素材/背包/"/>
+    <component id="kz0jhd" name="setting.xml" path="/HUD/组件/" exported="true"/>
+    <image id="kz0jhe" name="通用_褐色按钮.png" path="/Demo素材/通用/"/>
+    <component id="jv8chf" name="pack_title_bar.xml" path="/背包/组件/"/>
+    <image id="jv8chg" name="hud_跑跳底框.png" path="/Demo素材/hud/"/>
+    <image id="aj50hh" name="Fish48.png" path="/背包/组件/"/>
+    <image id="aj50hi" name="Fish40.png" path="/背包/组件/"/>
+    <component id="aj50hj" name="general_with_effect_btn.xml" path="/背包/组件/"/>
+    <component id="k56yhk" name="item_tip.xml" path="/背包/组件/"/>
+    <component id="k56yhm" name="dialogue.xml" path="/HUD/组件/" exported="true"/>
+    <image id="k56yhn" name="chatBubble.png" path="/Demo素材/通用/"/>
+    <component id="jm0ihs" name="bag_close_btn.xml" path="/背包/组件/"/>
+    <component id="ryhtht" name="dialogue_title_bar.xml" path="/HUD/组件/"/>
+    <image id="10086hu" name="背包8.png" path="/Demo素材/设计图/"/>
+    <misc id="fonp6hv" name=".DS_Store" path="/Demo素材/对话框/"/>
+    <image id="fonp6hw" name="通用_名字标签.png" path="/Demo素材/对话框/"/>
+    <image id="fonp6hx" name="通用_名字标签点点.png" path="/Demo素材/对话框/"/>
+    <image id="fonp6hy" name="通用_对话框.png" path="/Demo素材/对话框/" scale="9grid" scale9grid="114,0,14,295"/>
+    <image id="fonp6hz" name="通用_翻页三角.png" path="/Demo素材/对话框/"/>
+    <font id="pd0o6i0" name="4082_方正粗圆_GBK.TTF" path="/字体/" renderMode="" samplePointSize="16"/>
+    <image id="pd0o6i1" name="通用_背包icon.png" path="/Demo素材/通用/"/>
+    <image id="pd0o6i2" name="通用_背包icon@2x.png" path="/Demo素材/通用/"/>
+  </resources>
+  <publish name="Demo" genCode="true"/>
+</packageDescription>

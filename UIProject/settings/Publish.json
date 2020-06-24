@@ -1,0 +1,35 @@
+{
+  "path": "C:\\Projects\\FGUIAdapt_Demo\\Assets\\Resources\\UI",
+  "branchPath": "",
+  "fileExtension": "bytes",
+  "packageCount": 2,
+  "compressDesc": true,
+  "binaryFormat": true,
+  "jpegQuality": 80,
+  "compressPNG": false,
+  "codeGeneration": {
+    "allowGenCode": true,
+    "codePath": "C:\\Projects\\FGUIAdapt_Demo\\Assets\\Scripts\\UI",
+    "classNamePrefix": "UI_",
+    "memberNamePrefix": "",
+    "packageName": "ui",
+    "ignoreNoname": true,
+    "getMemberByName": false,
+    "codeType": ""
+  },
+  "includeHighResolution": 3,
+  "branchProcessing": 0,
+  "seperatedAtlasForBranch": false,
+  "atlasSetting": {
+    "maxSize": 2048,
+    "paging": true,
+    "sizeOption": "pot",
+    "forceSquare": false,
+    "allowRotation": false,
+    "trimImage": true
+  },
+  "include2x": true,
+  "include3x": true,
+  "include4x": false,
+  "fileName": "Publish"
+}

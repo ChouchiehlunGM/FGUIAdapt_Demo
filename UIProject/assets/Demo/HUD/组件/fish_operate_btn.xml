@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,265" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_pf99" name="n4" src="l0wngi" fileName="Demo素材/hud/hud_手持底框.png" xy="0,0" size="266,266">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ly2b" name="n2" src="avqf9f" fileName="通用/素材/激活状态.png" xy="5,5" size="255,255">
+      <gearDisplay controller="button" pages="1,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_ly2b" name="icon" xy="17,15" size="230,234" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n3_myfp" name="title" xy="104,104" size="60,60" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+    <image id="n5_ldjj" name="n5" src="ldjjh1" fileName="Demo素材/icon/icon_鱼竿.png" xy="54,57"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

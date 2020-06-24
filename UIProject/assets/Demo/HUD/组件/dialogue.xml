@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125" designImage="ui://ct91jj21ldjjh6" designImageAlpha="0">
+  <displayList>
+    <graph id="n4_pd0o" name="n4" xy="0,0" size="2436,1125" alpha="0.5" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_k56y" name="bg" src="fonp6hy" fileName="Demo素材/对话框/通用_对话框.png" xy="540,765" pivot="0.5,0.5" size="1437,295">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n1_k56y" name="dialogue_txt" xy="652,802" size="1215,229" fontSize="48" color="#93533b" vAlign="middle" ubb="true" autoSize="none" text="钓到太平洋桶眼鱼！透明的脑袋可以看到里面的构造呢！">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n2_k56y" name="n2" src="fonp6hz" fileName="Demo素材/对话框/通用_翻页三角.png" xy="1854,995" pivot="0.5,1.01">
+      <relation target="n0_k56y" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <component id="n3_k56y" name="title_bar" src="ryhtht" fileName="HUD/组件/dialogue_title_bar.xml" xy="590,698" pivot="0.5,0.5">
+      <relation target="n0_k56y" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Alpha" target="n2_k56y" value="0"/>
+    <item time="0" type="Scale" target="n0_k56y" tween="true" startValue="0.19,1" endValue="1.04,1" duration="8"/>
+    <item time="0" type="Scale" target="n2_k56y" tween="true" startValue="1,1" endValue="1,0.85" duration="11" repeat="-1" yoyo="true"/>
+    <item time="0" type="Scale" target="n3_k56y" tween="true" startValue="0.19,1" endValue="1.04,1" duration="6"/>
+    <item time="0" type="XY" target="n2_k56y" tween="true" startValue="1854,995" endValue="1854,1005" duration="11" repeat="-1" yoyo="true"/>
+    <item time="6" type="Alpha" target="n2_k56y" tween="true" startValue="0" endValue="1" duration="2"/>
+    <item time="6" type="Scale" target="n3_k56y" tween="true" startValue="1.04,1" endValue="0.98,1" duration="4"/>
+    <item time="8" type="Scale" target="n0_k56y" tween="true" startValue="1.04,1" endValue="0.98,1" duration="5"/>
+    <item time="10" type="Scale" target="n3_k56y" tween="true" startValue="0.98,1" endValue="1,1" duration="3"/>
+  </transition>
+  <transition name="t1" autoPlay="true" frameRate="30">
+    <item time="13" type="Scale" target="n0_k56y" tween="true" startValue="0.98,1" endValue="1,1" duration="32"/>
+    <item time="45" type="Scale" target="n0_k56y" tween="true" startValue="1,1" endValue="0.99,1" duration="35" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

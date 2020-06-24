@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,210" pivot="0.5,0.5" opaque="false" extention="Button" designImage="ui://ct91jj2110086hu" designImageOffsetX="-1787" designImageOffsetY="-130">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0">
+    <action type="play_transition" fromPage="2" toPage="3" transition="t0"/>
+  </controller>
+  <controller name="hold_status" pages="1,无状态,0,被手持" selected="0"/>
+  <controller name="count_status" pages="0,不显示数量,1,显示数量" selected="0"/>
+  <displayList>
+    <image id="n0_mvv0" name="n0" src="l0wngm" fileName="Demo素材/背包/背包_格子常态.png" xy="46,72" pivot="0.5,0.5" size="131,131">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n14_l63d" name="n14" src="l0wngl" fileName="Demo素材/背包/背包_格子装饰图案.png" xy="83,104" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n1_mvv0" name="selected_img" src="l0wngk" fileName="Demo素材/背包/背包_格子选中.png" xy="46,72" pivot="0.5,0.5" size="131,131">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n3_mvv0" name="icon_loader" xy="48,73" pivot="0.5,0.5" size="128,128" align="center" vAlign="middle" fill="scale"/>
+    <image id="n2_mvv0" name="n2" src="ldjjh8" fileName="Demo素材/背包/背包_手持状态.png" xy="43,69" size="131,131">
+      <gearDisplay controller="hold_status" pages="0"/>
+    </image>
+    <text id="n4_knfh" name="count_txt" xy="160,162" size="33,62" fontSize="48" color="#93533b" align="center" vAlign="middle" leading="0" bold="true" singleLine="true" text="9">
+      <gearDisplay controller="count_status" pages="1"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="n13_kz0j" name="tip_comp" src="k56yhk" fileName="背包/组件/item_tip.xml" xy="48,1" pivot="0.5,1">
+      <gearDisplay controller="button" pages="1,3"/>
+    </component>
+  </displayList>
+  <Button mode="Check"/>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n13_kz0j" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="Scale" target="n0_mvv0" tween="true" startValue="0.5,0.5" endValue="1.04,1.04" duration="4"/>
+    <item time="0" type="Scale" target="n13_kz0j" tween="true" startValue="1,0.19" endValue="1,1.02" duration="4"/>
+    <item time="0" type="Scale" target="n14_l63d" tween="true" startValue="0.5,0.5" endValue="1.04,1.04" duration="4"/>
+    <item time="0" type="Scale" target="n1_mvv0" tween="true" startValue="0.5,0.5" endValue="1.04,1.04" duration="4"/>
+    <item time="0" type="Scale" target="n3_mvv0" tween="true" startValue="0.5,0.5" endValue="1.04,1.04" duration="4"/>
+    <item time="4" type="Scale" target="n0_mvv0" tween="true" startValue="1.04,1.04" endValue="0.98,0.98" duration="3"/>
+    <item time="4" type="Scale" target="n13_kz0j" tween="true" startValue="1,1.02" endValue="1,0.98" duration="3"/>
+    <item time="4" type="Scale" target="n14_l63d" tween="true" startValue="1.04,1.04" endValue="0.98,0.98" duration="3"/>
+    <item time="4" type="Scale" target="n1_mvv0" tween="true" startValue="1.04,1.04" endValue="0.98,0.98" duration="3"/>
+    <item time="4" type="Scale" target="n3_mvv0" tween="true" startValue="1.04,1.04" endValue="0.98,0.98" duration="3"/>
+    <item time="7" type="Scale" target="n0_mvv0" tween="true" startValue="0.98,0.98" endValue="1,1" duration="3"/>
+    <item time="7" type="Scale" target="n13_kz0j" tween="true" startValue="1,0.98" endValue="1,1" duration="3"/>
+    <item time="7" type="Scale" target="n14_l63d" tween="true" startValue="0.98,0.98" endValue="1,1" duration="3"/>
+    <item time="7" type="Scale" target="n1_mvv0" tween="true" startValue="0.98,0.98" endValue="1,1" duration="3"/>
+    <item time="7" type="Scale" target="n3_mvv0" tween="true" startValue="0.98,0.98" endValue="1,1" duration="3"/>
+  </transition>
+</component>

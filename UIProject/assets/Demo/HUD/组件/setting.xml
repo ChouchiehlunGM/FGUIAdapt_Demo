@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125">
+  <displayList>
+    <graph id="n3_kz0j" name="n3" xy="0,0" size="2436,1125" alpha="0.5" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_kz0j" name="contine_btn" src="aj50hj" fileName="背包/组件/general_with_effect_btn.xml" xy="1305,511" size="330,102" group="n5_kz0j">
+      <Button title="继续游戏" titleFontSize="60" icon="ui://ct91jj21l0wngs"/>
+    </component>
+    <component id="n1_kz0j" name="game_over_btn" src="aj50hj" fileName="背包/组件/general_with_effect_btn.xml" xy="801,511" size="330,102" group="n5_kz0j">
+      <Button title="退出游戏" titleFontSize="60" icon="ui://ct91jj21kz0jhe"/>
+    </component>
+    <group id="n5_kz0j" name="n5" xy="801,511" size="834,102" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" target="n0_kz0j" tween="true" startValue="0.1,1" endValue="1.04,1" duration="5"/>
+    <item time="0" type="Scale" target="n1_kz0j" tween="true" startValue="0.1,1" endValue="1.04,1" duration="5"/>
+    <item time="5" type="Scale" target="n0_kz0j" tween="true" startValue="1.04,1" endValue="0.98,1" duration="3"/>
+    <item time="5" type="Scale" target="n1_kz0j" tween="true" startValue="1.04,1" endValue="0.98,1" duration="3"/>
+    <item time="8" type="Scale" target="n0_kz0j" tween="true" startValue="0.98,1" endValue="1.02,1" duration="3"/>
+    <item time="8" type="Scale" target="n1_kz0j" tween="true" startValue="0.98,1" endValue="1.02,1" duration="3"/>
+    <item time="11" type="Scale" target="n0_kz0j" tween="true" startValue="1.02,1" endValue="1,1" duration="3"/>
+    <item time="11" type="Scale" target="n1_kz0j" tween="true" startValue="1.02,1" endValue="1,1" duration="3"/>
+  </transition>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,61" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0">
+    <action type="play_transition" fromPage="2" toPage="1" transition="t0"/>
+  </controller>
+  <displayList>
+    <loader id="n0_qa6v" name="icon" xy="0,0" size="172,61" url="ui://ct91jj21l0wngs" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n1_qa6v" name="title" xy="23,12" size="126,40" fontSize="30" color="#ffffff" align="center" vAlign="middle" singleLine="true" text="继续游戏">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n2_aj50" name="n2" src="l0wngu" fileName="Demo素材/通用/通用_按钮点点.png" xy="-49,7" pivot="1,0.5" alpha="0">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <image id="n3_aj50" name="n3" src="l0wngu" fileName="Demo素材/通用/通用_按钮点点.png" xy="194,7" pivot="0,0.5" alpha="0" flip="hz">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+  <transition name="effect_transtion">
+    <item time="0" type="Alpha" target="n2_aj50" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Alpha" target="n3_aj50" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Scale" target="n2_aj50" tween="true" startValue="0,0" endValue="1,1" duration="3"/>
+    <item time="0" type="Scale" target="n3_aj50" tween="true" startValue="0,0" endValue="1,1" duration="3"/>
+    <item time="3" type="Alpha" target="n2_aj50" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="3" type="Alpha" target="n3_aj50" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="3" type="Scale" target="n2_aj50" tween="true" startValue="1,1" endValue="0,0" duration="3"/>
+    <item time="3" type="Scale" target="n3_aj50" tween="true" startValue="1,1" endValue="0,0" duration="3"/>
+  </transition>
+</component>
