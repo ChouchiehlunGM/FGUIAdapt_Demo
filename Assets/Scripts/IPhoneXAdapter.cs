@@ -46,9 +46,9 @@ public class IphoneXAdapter:MonoBehaviour
 
         if( Game.Instance.isIPhoneX )
         {
-            var insets = area.width * (margin / 2) / width;
+            var insets = area.width * (margin ) / width;
             var positionOffset = new Vector2( insets, 0 );
-            var sizeOffset = new Vector2( insets, 0 );
+            var sizeOffset = new Vector2( insets * 2, 0 );
             area.position = area.position + positionOffset;
             area.size = area.size - sizeOffset ;
             Debug.Log( $"insets: {insets} positionOffset: {positionOffset} sizeOffset: {sizeOffset} " +
